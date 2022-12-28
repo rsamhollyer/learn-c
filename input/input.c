@@ -5,7 +5,7 @@ int main(void)
     int radius;
 
     printf("Please enter the radius of the circle: ");
-    scanf("%i", &radius); /* &: Address of operator -> allows mutation */
+    scanf("%i", &radius); /* &: Address-of operator -> allows mutation */
 
     double area = 3.14159 * (radius * radius);
 
